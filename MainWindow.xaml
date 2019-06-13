@@ -1,0 +1,16 @@
+﻿<Window x:Class="CulminatingProblemJ3HiddenPalindrome.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CulminatingProblemJ3HiddenPalindrome"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock TextWrapping="Wrap">The input will consist of one line, containing a sequence of at least 1 and at most 40 lowercase
+letters.        </TextBlock>
+        <TextBox x:Name="wordInput"></TextBox>
+        <Button Click="Button_Click">click</Button>
+        <Label x:Name="lblOutput"></Label>
+    </StackPanel>
+</Window>
